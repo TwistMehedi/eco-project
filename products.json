@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name": "Computer",
+        "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":5,
+        "stock":6
+    },
+    {
+        "id":2,
+        "name": "Computer",
+       "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":6,
+        "stock":5
+    },
+    {
+        "id":3,
+        "name": "Computer",
+        "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":5,
+        "stock":4
+    },
+    {
+        "id":4,
+        "name": "Computer",
+        "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":5,
+        "stock":3
+    },
+    {
+        "id":5,
+        "name": "Computer",
+        "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":5,
+        "stock":7
+    },
+    {
+        "id":6,
+        "name": "Computer",
+        "img":"https://i.ibb.co.com/gFGx3k0/ford-gt-mk-iv-6000x3376-9830.jpg",
+        "category":"Same",
+        "brand":"ExampleBrand",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque iusto molestiae v !",
+        "price":5,
+        "stock":8
+    }
+]

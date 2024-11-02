@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Javascript Ecommerch</title>
+  </head>
+  <body>
+    <button><i id="cartValue" class="fa-solid fa-cart-shopping">0</i> My Order</button>
+      
+    <section>
+      <div class="productContainer"></div>
+    </section>
+
+    <template id="productTemplate">
+      <section class="mainCard" id="container">
+        <div class="cards" id="cardValue">
+          <article class="information [card]">
+            <p class="category"></p>
+            <div class="imageContainer">
+              <img class="productImage" alt="" width="100px" />
+            </div>
+            <h2 class="productName"></h2>
+            <div class="productRating">
+              <i class="fa-solid fa-star"> </i>
+              <i class="fa-solid fa-star"> </i>
+              <i class="fa-solid fa-star"> </i>
+              <i class="fa-solid fa-star"> </i>
+              <i class="fa-solid fa-star"> </i>
+              <i class="fa-solid fa-star"> </i>
+            </div>
+            <p class="productDescription"></p>
+            <div class="productPriceElement">
+              <p class="productProperty">Product Price:</p>
+              <p class="productPrice"></p>
+              <p><u class="productActualPrice"></u></p>
+            </div>
+            <div class="productStockElements">
+              <p class="productProperty">Product stock availabe:</p>
+              <p class="productStock"></p>
+            </div>
+
+            <div class="productQuantityElement">
+              <p class="productProperty">Quantity (Piecec)</p>
+              <div class="stockElement">
+                <button class="cardIncreament">+</button>
+                <p class="productQuantity">1</p>
+                <button class="cardDecreament">-</button>
+              </div>
+              <button class="orderBtn">Order Now</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </template>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
